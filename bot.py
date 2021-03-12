@@ -894,6 +894,6 @@ async def 목록재생(ctx):
 
 
 
-bot.run('ODA3OTg3MDIxODYzNTgzNzQ0.YB_-jQ.YVH5p710ZdbeVCOTEdWJ-I517bM')
+bot.run(os.environ['token'])
 bot.remove_command("help")
 asyncio.run(bot.db.close())
