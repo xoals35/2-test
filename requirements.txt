@@ -5,7 +5,6 @@ aiohttp==3.5.4
 altgraph==0.16.1
 async-timeout==3.0.1	
 attrs==19.1.0
-beautifulsoup==4.7.1
 bs4==0.0.1
 cffi==1.12.3	
 chardet==3.0.4
