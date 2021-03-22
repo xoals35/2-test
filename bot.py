@@ -894,7 +894,7 @@ async def 목록재생(ctx):
 
 
 
-access_token = os.environ["BOT_TOKEN"]
-bot.run(BOT_TOKEN)
+access_token = os.environ["bpt_token"]
+bot.run(access_token)
 bot.remove_command("help")
 asyncio.run(bot.db.close())
